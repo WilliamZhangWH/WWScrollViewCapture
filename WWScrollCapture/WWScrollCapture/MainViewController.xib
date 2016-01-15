@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="contentViewHeightContraint" destination="cWf-SY-Pot" id="JWP-RU-mu5"/>
+                <outlet property="myScrollView" destination="hyl-Wi-lJk" id="q8f-eq-KN5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyl-Wi-lJk">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="idf-6M-Ycc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3825" translatesAutoresizingMaskIntoConstraints="NO" id="enN-mY-St2">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="enN-mY-St2" secondAttribute="trailing" id="1u2-ew-wSs"/>
+                                <constraint firstAttribute="height" constant="568" id="cWf-SY-Pot"/>
+                                <constraint firstAttribute="bottom" secondItem="enN-mY-St2" secondAttribute="bottom" id="jA5-Wa-GpM"/>
+                                <constraint firstItem="enN-mY-St2" firstAttribute="top" secondItem="idf-6M-Ycc" secondAttribute="top" id="q70-6E-XpM"/>
+                                <constraint firstItem="enN-mY-St2" firstAttribute="leading" secondItem="idf-6M-Ycc" secondAttribute="leading" id="z69-cK-q4M"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="idf-6M-Ycc" secondAttribute="trailing" id="3yN-5Y-WL5"/>
+                        <constraint firstItem="idf-6M-Ycc" firstAttribute="leading" secondItem="hyl-Wi-lJk" secondAttribute="leading" id="8MF-Mv-01v"/>
+                        <constraint firstAttribute="bottom" secondItem="idf-6M-Ycc" secondAttribute="bottom" id="Ato-ci-p1x"/>
+                        <constraint firstItem="idf-6M-Ycc" firstAttribute="top" secondItem="hyl-Wi-lJk" secondAttribute="top" id="qlc-ah-Fh4"/>
+                        <constraint firstItem="idf-6M-Ycc" firstAttribute="centerX" secondItem="hyl-Wi-lJk" secondAttribute="centerX" id="soc-sN-1Ma"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hyl-Wi-lJk" secondAttribute="trailing" id="NEZ-dI-P1K"/>
+                <constraint firstItem="hyl-Wi-lJk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="eXT-jb-mMe"/>
+                <constraint firstAttribute="bottom" secondItem="hyl-Wi-lJk" secondAttribute="bottom" id="if1-TE-n0B"/>
+                <constraint firstItem="hyl-Wi-lJk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jbs-bw-30q"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="328" y="589"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IMG_3825" width="300" height="1004"/>
+    </resources>
+</document>

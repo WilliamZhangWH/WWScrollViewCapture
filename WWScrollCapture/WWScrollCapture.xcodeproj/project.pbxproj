@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054FF69D1C489CF500E66720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FF69C1C489CF500E66720 /* main.m */; };
+		054FF6A01C489CF500E66720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FF69F1C489CF500E66720 /* AppDelegate.m */; };
+		054FF6A81C489CF600E66720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054FF6A71C489CF600E66720 /* Assets.xcassets */; };
+		054FF6AB1C489CF600E66720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054FF6A91C489CF600E66720 /* LaunchScreen.storyboard */; };
+		054FF6B51C489D2B00E66720 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FF6B31C489D2B00E66720 /* MainViewController.m */; };
+		054FF6B61C489D2B00E66720 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054FF6B41C489D2B00E66720 /* MainViewController.xib */; };
+		05B470F51C48B5920052243E /* WWScrollCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B470F41C48B5920052243E /* WWScrollCaptureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054FF6981C489CF500E66720 /* WWScrollCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWScrollCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		054FF69C1C489CF500E66720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		054FF69E1C489CF500E66720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		054FF69F1C489CF500E66720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		054FF6A71C489CF600E66720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		054FF6AA1C489CF600E66720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		054FF6AC1C489CF600E66720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054FF6B21C489D2B00E66720 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		054FF6B31C489D2B00E66720 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		054FF6B41C489D2B00E66720 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		05B470F31C48B5920052243E /* WWScrollCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWScrollCaptureView.h; sourceTree = "<group>"; };
+		05B470F41C48B5920052243E /* WWScrollCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWScrollCaptureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054FF6951C489CF500E66720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054FF68F1C489CF500E66720 = {
+			isa = PBXGroup;
+			children = (
+				054FF69A1C489CF500E66720 /* WWScrollCapture */,
+				054FF6991C489CF500E66720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054FF6991C489CF500E66720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054FF6981C489CF500E66720 /* WWScrollCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054FF69A1C489CF500E66720 /* WWScrollCapture */ = {
+			isa = PBXGroup;
+			children = (
+				054FF69E1C489CF500E66720 /* AppDelegate.h */,
+				054FF69F1C489CF500E66720 /* AppDelegate.m */,
+				05B470F31C48B5920052243E /* WWScrollCaptureView.h */,
+				05B470F41C48B5920052243E /* WWScrollCaptureView.m */,
+				054FF6B21C489D2B00E66720 /* MainViewController.h */,
+				054FF6B31C489D2B00E66720 /* MainViewController.m */,
+				054FF6B41C489D2B00E66720 /* MainViewController.xib */,
+				054FF6A71C489CF600E66720 /* Assets.xcassets */,
+				054FF6A91C489CF600E66720 /* LaunchScreen.storyboard */,
+				054FF6AC1C489CF600E66720 /* Info.plist */,
+				054FF69B1C489CF500E66720 /* Supporting Files */,
+			);
+			path = WWScrollCapture;
+			sourceTree = "<group>";
+		};
+		054FF69B1C489CF500E66720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				054FF69C1C489CF500E66720 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054FF6971C489CF500E66720 /* WWScrollCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054FF6AF1C489CF600E66720 /* Build configuration list for PBXNativeTarget "WWScrollCapture" */;
+			buildPhases = (
+				054FF6941C489CF500E66720 /* Sources */,
+				054FF6951C489CF500E66720 /* Frameworks */,
+				054FF6961C489CF500E66720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWScrollCapture;
+			productName = WWScrollCapture;
+			productReference = 054FF6981C489CF500E66720 /* WWScrollCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054FF6901C489CF500E66720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ti-link";
+				TargetAttributes = {
+					054FF6971C489CF500E66720 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = P2NS5W4M29;
+					};
+				};
+			};
+			buildConfigurationList = 054FF6931C489CF500E66720 /* Build configuration list for PBXProject "WWScrollCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054FF68F1C489CF500E66720;
+			productRefGroup = 054FF6991C489CF500E66720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054FF6971C489CF500E66720 /* WWScrollCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054FF6961C489CF500E66720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054FF6AB1C489CF600E66720 /* LaunchScreen.storyboard in Resources */,
+				054FF6A81C489CF600E66720 /* Assets.xcassets in Resources */,
+				054FF6B61C489D2B00E66720 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054FF6941C489CF500E66720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B470F51C48B5920052243E /* WWScrollCaptureView.m in Sources */,
+				054FF6A01C489CF500E66720 /* AppDelegate.m in Sources */,
+				054FF69D1C489CF500E66720 /* main.m in Sources */,
+				054FF6B51C489D2B00E66720 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		054FF6A91C489CF600E66720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054FF6AA1C489CF600E66720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054FF6AD1C489CF600E66720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		054FF6AE1C489CF600E66720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054FF6B01C489CF600E66720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WWScrollCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenhao.demo.WWScrollCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		054FF6B11C489CF600E66720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WWScrollCapture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenhao.demo.WWScrollCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054FF6931C489CF500E66720 /* Build configuration list for PBXProject "WWScrollCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054FF6AD1C489CF600E66720 /* Debug */,
+				054FF6AE1C489CF600E66720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054FF6AF1C489CF600E66720 /* Build configuration list for PBXNativeTarget "WWScrollCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054FF6B01C489CF600E66720 /* Debug */,
+				054FF6B11C489CF600E66720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054FF6901C489CF500E66720 /* Project object */;
+}
